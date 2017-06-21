@@ -37,7 +37,7 @@ let toDoList = [
 
 const parseDescription = (description) => {
     const descrRegex = /#(.*?)\n([\s\S]+)|([\s\S]+)/;
-	const match = descrRegex.exec(description);
+    const match = descrRegex.exec(description);
     const result = {
         title: undefined,
         description: undefined,

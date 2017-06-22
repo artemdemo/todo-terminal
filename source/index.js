@@ -74,7 +74,6 @@ const submitButton = blessed.button({
     },
     right: 0,
     top: 11,
-    shrink: true,
     name: 'submit',
     content: 'Submit ToDo',
     style: {
@@ -105,7 +104,6 @@ const deleteButton = blessed.button({
     },
     right: 15,
     top: 11,
-    shrink: true,
     name: 'submit',
     content: 'Delete ToDo',
     style: {

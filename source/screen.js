@@ -8,10 +8,10 @@ const screen = blessed.screen({
     smartCSR: true,
 });
 
-screen.title = 'Dashboard';
+screen.title = 'ToDo - Terminal';
 
 // Quit on Escape, q, or Control-C.
-screen.key(['escape', 'q', 'C-c'], function(ch, key) {
+screen.key(['escape', 'q', 'C-c'], () => {
     return process.exit(0);
 });
 
